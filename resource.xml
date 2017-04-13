@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Unlock User Account (DOMAIN) [WIN]</name>
+    <category>scripts</category>
+    <description>Unlocks a locked account on a DOMAIN only.</description>
+    <uid>541ffd4e-15dd-4010-ac21-913f7e0b7821</uid>
+    <hash />
+    <version>3</version>
+    <timeout>3600</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>batch</installType>
+  </general>
+  <variable idx='0'>
+    <name>cs_username</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>User name to have password changed</description>
+    <defaultVal></defaultVal>
+  </variable>
+</component>
